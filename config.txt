@@ -1,0 +1,15 @@
+{
+# 微信公众号配置
+"app_id": "wx40d67e6e3d7cbee8",
+"app_secret": "443a65e58e33aabf9ddc70aba3ca7537",
+"template_id": "pbs_mS-Sp3raGFECILghw8e85suV43tKJ3D71TyN4xY",
+"user": ["owEap6NmEUIFLPOvHnxylH8aXKqU"], # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+# 信息配置
+"weather_key": "695807fa55fb433db074cffeac3e4bff",
+"region": "合肥市", # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"birthday1": {"name": "李依冉", "birthday": "2007-06-25"}, # 生日1，姓名和生日，生日若为农历在最前面加上r即可
+"birthday2": {"name": "王梓祥", "birthday": "2005-10-28"}, # 生日2，同上
+"love_date": "2022-05-09", # 在一起的日期，暂不支持农历
+"note_ch": "你进入画面，我按下永远", # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_en": "I love for infinity!" # 金句英文
+}
